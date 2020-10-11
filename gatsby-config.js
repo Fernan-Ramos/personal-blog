@@ -13,14 +13,15 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
-      resolve: "gatsby-plugin-local-search",
+      resolve: 'gatsby-plugin-local-search',
       options: {
-        name: "blog",
-        engine: "flexsearch",
+        name: 'blog',
+        engine: 'flexsearch',
         engineOptions: {
-          encode: "icase",
-          tokenize: "forward",
+          encode: 'icase',
+          tokenize: 'forward',
           async: false,
         },
         query: `
@@ -40,9 +41,9 @@ module.exports = {
             }
           }
         `,
-        ref: "id",
-        index: ["title", "rawBody"],
-        store: ["id", "slug", "date", "title", "excerpt", "description"],
+        ref: 'id',
+        index: ['title', 'rawBody'],
+        store: ['id', 'slug', 'date', 'title', 'excerpt', 'description'],
         normalizer: ({ data }) =>
           data.allMdx.nodes.map(node => ({
             id: node.id,
@@ -74,7 +75,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [".mdx", ".md"],
+        extensions: ['.mdx', '.md'],
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
@@ -128,4 +129,4 @@ module.exports = {
       },
     },
   ],
-}
+};

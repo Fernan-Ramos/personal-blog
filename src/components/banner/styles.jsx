@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   background-image: url('/images/banner-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   header {
     color: white;
     text-align: center;

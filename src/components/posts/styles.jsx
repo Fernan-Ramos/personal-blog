@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import { rhythm } from '../../utils/typography';
 export const SearchBar = styled.div`
@@ -33,4 +34,16 @@ export const SearchBar = styled.div`
     word-wrap: break-word;
     outline: none;
   }
+`;
+
+export const StyledLink = styled(Link)`
+  color: black;
+  box-shadow: none;
+  :hover {
+    color: #156e66;
+  }
+`;
+
+export const StyledDate = styled.small`
+  color: #5a5a5a;
 `;

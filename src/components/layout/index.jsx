@@ -17,7 +17,7 @@ const Layout = ({ location, title, children }) => {
       >
         <main>{children}</main>
       </div>
-      <Footer>© {new Date().getFullYear()}, Built with</Footer>
+      <Footer>© {new Date().getFullYear()} Fantastic year</Footer>
     </Wrapper>
   );
 };

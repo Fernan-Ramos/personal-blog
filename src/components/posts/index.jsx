@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from 'gatsby';
 import { useFlexSearch } from 'react-use-flexsearch';
 import * as queryString from 'query-string';
 import { rhythm } from '../../utils/typography';
-import { SearchBar } from './styles';
+import { SearchBar, StyledLink, StyledDate } from './styles';
 
 const SearchedPosts = ({ results }) =>
   results.length > 0 ? (
@@ -21,11 +20,9 @@ const SearchedPosts = ({ results }) =>
               marginBottom: rhythm(1 / 4),
             }}
           >
-            <Link style={{ boxShadow: `none` }} to={`/blog${slug}`}>
-              {title}
-            </Link>
+            <StyledLink to={`/blog${slug}`}>{title}</StyledLink>
           </h3>
-          <small>{date}</small>
+          <StyledDate>{date}</StyledDate>
           <p
             dangerouslySetInnerHTML={{
               __html: description || excerpt,
@@ -49,11 +46,9 @@ const AllPosts = ({ posts }) => (
               marginBottom: rhythm(1 / 4),
             }}
           >
-            <Link style={{ boxShadow: `none` }} to={`/blog${node.fields.slug}`}>
-              {title}
-            </Link>
+            <StyledLink to={`/blog${node.fields.slug}`}>{title}</StyledLink>
           </h3>
-          <small>{node.frontmatter.date}</small>
+          <StyledDate>{node.frontmatter.date}</StyledDate>
           <p
             dangerouslySetInnerHTML={{
               __html: node.frontmatter.description || node.excerpt,
@@ -79,7 +74,7 @@ const SearchPosts = ({ posts, localSearchBlog, location, navigate }) => {
         <input
           id="search"
           type="search"
-          placeholder="Search all posts"
+          placeholder="Buscar"
           value={query}
           onChange={e => {
             navigate(e.target.value ? `/?search=${e.target.value}` : '/');

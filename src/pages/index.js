@@ -4,11 +4,12 @@ import SEO from '../components/seo';
 import Posts from '../components/posts';
 
 const Home = ({ data, navigate, location }) => {
-  const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMdx.edges;
+  const { title, description, boldTitle } = data.site.siteMetadata;
   const localSearchBlog = data.localSearchBlog;
+  console.log(data);
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={title} description={description} boldTitle={boldTitle}>
       <SEO title="All posts" />
       <Posts
         posts={posts}
@@ -27,6 +28,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        boldTitle
+        description
       }
     }
     localSearchBlog {

@@ -40,7 +40,7 @@ export const StyledLink = styled(Link)`
   color: black;
   box-shadow: none;
   :hover {
-    color: #156e66;
+    color: #31aeda;
   }
 `;
 

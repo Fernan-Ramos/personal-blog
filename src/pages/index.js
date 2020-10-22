@@ -7,7 +7,6 @@ const Home = ({ data, navigate, location }) => {
   const posts = data.allMdx.edges;
   const { title, description, boldTitle } = data.site.siteMetadata;
   const localSearchBlog = data.localSearchBlog;
-  console.log(data);
   return (
     <Layout location={location} title={title} description={description} boldTitle={boldTitle}>
       <SEO title="All posts" />

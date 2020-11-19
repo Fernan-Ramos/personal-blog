@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { scale } from '../../utils/typography';
 import { Wrapper, WrapperContent } from './styles';
 
 const Banner = ({ title, description, boldTitle }) => {

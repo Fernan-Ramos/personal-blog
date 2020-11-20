@@ -2,15 +2,15 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Wrapper, WrapperContent } from './styles';
 
-const Banner = ({ title, description, boldTitle }) => {
+const Banner = ({ description }) => {
   return (
     <Wrapper>
       <WrapperContent>
         <header>
           <h1>
             <Link to="/">
-              {title}
-              <span>{boldTitle}</span>
+              La vida es una
+              <span>lenteja</span>
             </Link>
           </h1>
           <h3>{description}</h3>

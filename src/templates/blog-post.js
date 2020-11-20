@@ -8,10 +8,10 @@ import { rhythm, scale } from '../utils/typography';
 
 const BlogPostTemplate = ({ location, data, pageContext }) => {
   const post = data.mdx;
-  const { title, description, boldTitle } = data.site.siteMetadata;
+  const { description } = data.site.siteMetadata;
   const { previous, next } = pageContext;
   return (
-    <Layout location={location} title={title} description={description} boldTitle={boldTitle}>
+    <Layout location={location} description={description}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -67,9 +67,7 @@ export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
       siteMetadata {
-        title
         description
-        boldTitle
         author
       }
     }

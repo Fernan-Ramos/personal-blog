@@ -3,10 +3,10 @@ import { rhythm } from '../../utils/typography';
 import Banner from '../banner';
 import { Wrapper, Footer } from './styles';
 
-const Layout = ({ location, title, description, boldTitle, children }) => {
+const Layout = ({ location, description, children }) => {
   return (
     <Wrapper>
-      <Banner title={title} description={description} boldTitle={boldTitle} location={location} />
+      <Banner description={description} location={location} />
       <div
         style={{
           marginLeft: `auto`,

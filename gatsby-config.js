@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `La vida es una `,
-    boldTitle: `lenteja`,
+    title: `La vida es una lenteja`,
     author: `FerRamos`,
     description: `Un intento de plasmar la vida en un blog`,
     siteUrl: `https://lavidaesunalenteja.netlify.app/`,

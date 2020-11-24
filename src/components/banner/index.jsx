@@ -10,7 +10,7 @@ const Banner = ({ description }) => {
           <h1>
             <Link to="/">
               La vida es una
-              <span>lenteja</span>
+              <span> lenteja</span>
             </Link>
           </h1>
           <h3>{description}</h3>

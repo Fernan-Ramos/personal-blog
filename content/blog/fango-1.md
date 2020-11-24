@@ -12,7 +12,7 @@ Como caemos en él? Pues unas veces nuestros actos nos precipitan hacía ese abi
 
 Una vez dentro, desprecias tu ser, físico o puede que incluso tu vida. Este fango te consume y se adueña de ti, de tus pensamientos y de tus acciones. Has dejado de ser la persona que creías o que añorabas ser.
 
-Al final llega una situación en la en la el fango te deja escapar y volver a la vida, pero el fango no es tonto, te ha dejado ir porque sabe que volverás.
+Al final llega una situación en la que el fango te deja escapar y volver a la vida, pero el fango no es tonto, te ha dejado ir porque sabe que volverás.
 
 Vuelve a llover..., por lo que tarde o temprano volverá y te hundirás. 
 

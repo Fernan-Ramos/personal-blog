@@ -35,7 +35,7 @@ module.exports = {
                 frontmatter {
                   title
                   description
-                  date(formatString: "MMMM DD, YYYY")
+                  date(formatString: "DD MMMM, YYYY", locale: "es_ES")
                 }
               }
             }

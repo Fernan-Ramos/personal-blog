@@ -13,6 +13,6 @@ La idea de crear este blog es poder plasmar esos pensamientos que se pasan por m
 
 ![Si, voy a meter imágenes para rellenar, es que quedan muy molonas.](../assets/artiom-vallat-wbdhfr9xeyo-unsplash.jpg)
 
-Y nada, intentaré escribir en noches de lluvia o antes de irme a dormir que es cuando la locomota de ideas se pone en marcha.
+Y nada, intentaré escribir en noches de lluvia o antes de irme a dormir que es cuando la locomotora de ideas se pone en marcha.
 
 Un saludo lentejistas.

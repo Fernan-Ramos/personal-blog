@@ -15,7 +15,7 @@ const Home = ({ data, navigate, location, pageContext }) => {
   const nextPage = `/${(currentPage + 1).toString()}`;
   return (
     <Layout location={location} description={description}>
-      <SEO title="All posts" />
+      <SEO title="Posts" />
       <Posts
         posts={posts}
         localSearchBlog={localSearchBlog}

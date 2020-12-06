@@ -6,7 +6,7 @@ description: Paseos sociales
 ---
 Hoy he dado un paseo por la ciudad con un amigo. Gorro, guantes y bufanda, hay que ir bien abrigado, la situación hace que el clima sea más frío de lo normal. 
 
-Tras un saludo de codo hemos empezado a caminar, nos íbamos poníamos un poco al día.
+Tras un saludo de codo hemos empezado a caminar, nos íbamos poniendo un poco al día.
 
 Con el ocio cerrado el paseo se ha convertido en la nueva manera de socializar.
 

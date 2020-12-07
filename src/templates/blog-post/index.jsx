@@ -2,9 +2,9 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import { rhythm, scale } from '../utils/typography';
+import Layout from '../../components/layout';
+import SEO from '../../components/seo';
+import { rhythm, scale } from '../../utils/typography';
 
 const BlogPostTemplate = ({ location, data, pageContext }) => {
   const post = data.mdx;
@@ -45,14 +45,14 @@ const BlogPostTemplate = ({ location, data, pageContext }) => {
         <li>
           {previous && (
             <Link to={`/blog${previous.fields.slug}`} rel="prev">
-              {previous.frontmatter.title}
+              &#x2039; {previous.frontmatter.title}
             </Link>
           )}
         </li>
         <li>
           {next && (
             <Link to={`/blog${next.fields.slug}`} rel="next">
-              {next.frontmatter.title} →
+              {next.frontmatter.title} &#x203A;
             </Link>
           )}
         </li>

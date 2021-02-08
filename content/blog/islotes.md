@@ -4,7 +4,6 @@ date: 2021-02-08T17:28:05.094Z
 title: Islotes
 description: Flotando
 ---
-\
 Antes de la pandemia los meses tenían más significado. 
 
 Siempre he relacionado a estos dueños de los días como un conjunto de vivencias, cada uno tenía su personalidad y se diferenciaba del resto. Ahora esa diferenciación empieza a desaparecer, están sumidos a una rutina cada vez mas fría.

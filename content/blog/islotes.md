@@ -2,7 +2,7 @@
 path: islotes
 date: 2021-02-08T17:28:05.094Z
 title: Islotes
-description: s
+description: Flotando
 ---
 \
 Antes de la pandemia los meses tenían más significado. 
